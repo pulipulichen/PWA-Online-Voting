@@ -8,6 +8,7 @@ let Index = {
     // ConfigurationToggleButton: () => import(/* webpackChunkName: "components/ConfigurationToggleButton" */ './ConfigurationToggleButton/ConfigurationToggleButton.vue'),
     // WebcamVideo: () => import(/* webpackChunkName: "components/WebcamVideo" */ './WebcamVideo/WebcamVideo.vue'),
     // VotePanel: () => import(/* webpackChunkName: "components/VotePanel" */ './VotePanel/VotePanel.vue'),
+    VotingButtons: () => import(/* webpackChunkName: "components/VotingButtons" */ './VotingButtons/VotingButtons.vue'),
   },
   data() {
     this.$i18n.locale = this.db.config.localConfig

@@ -1,10 +1,12 @@
-let appName = 'Fullscreen-Webcam-Viewer'
+let appName = 'PWA-Online-Voting'
 
 let config = {
-  version: '20230708-1657',
+  version: '20230708-2332',
 
   view: 'main',
   resetLocalConfigHour: 0.5,
+
+  voteURL: `https://script.google.com/macros/s/AKfycbzuGriN3krNlVJc2C3_sk1-QCypHW9hPDZwJKMStZtC4Ge9GTBb-48qiv82J1-HSw-E/exec`,
 }
 
 // ----------------------------------------------------------------

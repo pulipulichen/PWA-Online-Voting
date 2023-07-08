@@ -1,6 +1,9 @@
 <div class="Index"
   v-show="db.config.inited">
 
-  Hello World
+  <VotingButtons 
+    ref="VotingButtons"
+    :db="db">
+  </VotingButtons>
 
 </div>

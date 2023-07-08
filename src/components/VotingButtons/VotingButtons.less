@@ -1,3 +1,33 @@
-.ComponentTemplate {
-  
+.VotingButtons {
+  padding: 1rem;
+  padding-top: 0;
+
+  button {
+    margin: 2rem !important;
+    width: calc(100% - 4rem) !important;
+
+    transition: background-color 0.5s linear, color 0.5s linear; 
+  }
+
+  .loading-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+
+    background-color: rgba(255,255,255,0.7) !important;
+    cursor: wait;
+    z-index: 1;
+
+    img {
+      position: fixed;
+
+      right: 1rem;
+      bottom: 1rem;
+      
+      width: 10rem;
+      height: auto;
+    }
+  }
 }

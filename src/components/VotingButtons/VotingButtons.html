@@ -1,5 +1,15 @@
 <div class="VotingButtons">
-  <button type="button" class="ui fluid button">
-    +1
+  <button type="button" class="ui fluid button"
+    v-for="(score, i) in voteScores"
+    @click.prevent.stop="sendVote(score)"
+    :style="computedStyle"
+    :class="{positive: (score === sendingScore)}">
+    <i class="heart icon"
+      v-for="j in score" />
   </button>
+
+  <div class="loading-overlay"
+    v-if="sendingScore > 0">
+    <img src="./loading.svg" />
+  </div>
 </div>

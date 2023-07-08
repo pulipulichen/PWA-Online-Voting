@@ -1,7 +1,7 @@
 
 ````html
-<ComponentTemplate 
-  ref="ComponentTemplate"
+<VotingButtons 
+  ref="VotingButtons"
   :db="db">
-</ComponentTemplate>
+</VotingButtons>
 ````
