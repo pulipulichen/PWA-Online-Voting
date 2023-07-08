@@ -1,10 +1,11 @@
 {
-  "name": "Now Loading",
-  "short_name": "Now Loading",
+  "name": "Voting",
+  "short_name": "Voting",
+  "id": "https://pulipulichen.github.io/PWA-Online-Voting/",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#E1F7F7",
-  "description": "A PWA to display \"Now Loading\" screen.",
+  "description": "Vote the course!",
   "icons": [{
     "src": "assets/favicon/favicon.png",
     "sizes": "512x512",

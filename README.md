@@ -1,5 +1,5 @@
 # PWA-Online-Voting
-To vote and display result online.
+Vote the course!
 
 
 - vote: https://pulipulichen.github.io/PWA-Online-Voting/index.html
